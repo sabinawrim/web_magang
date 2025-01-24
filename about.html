@@ -14,37 +14,53 @@
     <!-- End -->
   </head>
   <body>
-    <!-- ini Navbar -->
-    <section id="navbar">
-      <nav class="navbar navbar-expand-lg bg-secondary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="asset/picture/logo.png" alt="Bootstrap" width="30" height="24" /> Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#services">Service</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#scmedia&contact">Contact</a>
-              </li>
-            </ul>
-          </div>
+    <header>
+      <!-- Navbar -->
+      <section id="navbar">
+        <!-- bg-secondary -->
+         <div class="container">
+          <div class="row justify-content-center">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container bg-light py-4 fixed-top">
+              <a class="navbar-brand font-weight-bold" href="#"> <img src="asset/picture/logo.png" alt="Bootstrap" width="30" height="24" class="rounded-5" /> Nadia Modist</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services">Service</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#scmedia&contact">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                  
+                    <!-- <div class="toggle">
+                      <i class="bx bxs-sun" id="sunIcon"></i>
+                      <label class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" id="toggle" />
+                      </label>
+                      <i class="bx bx-moon" id="moonIcon"></i>
+                    </div> -->
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
         </div>
-      </nav>
-    </section>
+      </section>
+    </header>
     <!-- End Navbar -->
 
     <!-- container about -->
-    <section id="about">
+    <section id="about" class="pt-5">
       <div class="container">
         <div class="row justify-content-center fs-5 text-left p-5">
           <div class="col-md-3">
@@ -59,7 +75,7 @@
             <!-- end -->
           </div>
 
-          <div class="col-md-9">
+          <div class="col-md-9 pt-4">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quasi maxime, illo praesentium aliquid laboriosam saepe eveniet nulla blanditiis, at sint est incidunt officiis quam.</p>
           </div>
         </div>
@@ -68,7 +84,8 @@
     <!-- End -->
 
     <footer>
-      <div class="bg-secondary text-center pt-2 pb-2 mx-auto">
+      <div class="text-center pt-2 pb-2">
+        <!-- <small> &copy; 2025 Design by Me </small> -->
         <p>&copy; 2025 Design by Me</p>
       </div>
     </footer>

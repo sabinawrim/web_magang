@@ -1,66 +1,23 @@
-body {
-  font-family: Arial, sans-serif;
-}
+/* @import url("https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap"); */
 
-/* In your style.css file */
-/* .dark-mode {
-  --bg-color: #212529;
-  --text-color: #fff; */
-/* Add more styles for other elements as needed */
-/* } */
-
-/* body.dark-mode {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-} */
-
-/* .dark-mode {
-  background-color: #222;
-  color: #fff;
-  /* Add more styles for dark mode here */
-/* } */
-/* body.dark-mode {
-  background-color: #121212;
-  color: #ffffff;
-}
-.navbar.dark-mode,
-.card.dark-mode,
-footer.dark-mode {
-  background-color: #333333;
-  color: #ffffff;
-}
-.dark-mode .btn,
-.dark-mode .form-control {
-  background-color: #555555;
-  color: #ffffff;
-} */
-
-/* Mode default (terang) */
 /* body {
-  background-color: white;
-  color: black;
-  transition: background-color 0.3s, color 0.3s;
+  font-family: Arial, sans-serif;
 } */
 
-/* Mode gelap */
-/* body.dark {
-  background-color: #121212;
-  color: white;
+/* body {
+  font-family: "Playwrite IN", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 } */
 
-/* Gaya ikon */
-/* .toggle i {
-  font-size: 24px;
-  cursor: pointer; */
-/* opacity: 0.5;
-  ?transition: opacity 0.3s, transform 0.3s;
-} */
-
-/* Ikon aktif */
-/* .toggle .active {
-  opacity: 1;
-  transform: scale(1.2);
-} */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
 
 /* Default styles */
 body {
